@@ -11,14 +11,15 @@
 </head>
 <body>
   <h1 class="heading">Dictionary</h1>
-   <div class="whole">
+   <div class="whole" id="meaningContainer">
     <div id="top">
-      <input type="text" class="search" placeholder="Enter the word">
-    <div class="icon_div">
+      <input type="text" id="inputBox" class="search" placeholder="Enter the word">
+    <div class="icon_div" onclick="checkWord()">
         <i class="fa-solid fa-magnifying-glass icon"></i>
     </div>
     </div>
-    
+    <div id="meaning"></div>
    </div>
+   <script src="script.js"></script>
 </body>
 </html>
